@@ -1,0 +1,16 @@
+{
+    "Books": [
+      {
+        "id": 1,
+        "cím": "nemtudom",
+        "szerző": "telapo",
+        "ár": 342
+      },
+      {
+        "id": 2,
+        "cím": "valami",
+        "szerző": "senki",
+        "ár": 327
+      }
+    ]
+  }
