@@ -38,9 +38,9 @@ function renderBooks(bookList) {
         const row = document.createElement('tr')
         row.innerHTML = `
             <td>${bks.id}</td>
-            <td>${bks.cím}</td>
-            <td>${bks.szerző}</td>
-            <td>${bks.ár}</td>
+            <td>${bks.cim}</td>
+            <td>${bks.szerzo}</td>
+            <td>${bks.ar}</td>
             <td>
         `
         doc.bookBody.appendChild(row)
