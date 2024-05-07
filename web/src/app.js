@@ -1,4 +1,12 @@
-
+/*
+*File: index.html
+*Author: Orosz Oliver
+*Copyright: 2024, Orosz Oliver
+*Group: Szoft 1-i-n
+*Date: 2024-05-07
+*Github: https://github.com/Hiradura/
+*Licenc: GNU GPL
+*/
 const doc = {
     bookBody: document.querySelector("#bookBody"),
 }
@@ -8,11 +16,6 @@ const state = {
 }
 
 
-function getDataFromForm() {
-    state.cím = doc.nameInput.value
-    state.szerző = doc.cityInput.value
-    state.ár = doc.salaryInput.value
-}
 
 function getBooks() {
     fetch(state.url)
@@ -20,6 +23,12 @@ function getBooks() {
     .then(result => {
         renderBooks(result)
     })
+}
+
+function getDataFromForm() {
+    state.cim = doc.nameInput.value
+    state.szerzo = doc.cityInput.value
+    state.ar = doc.salaryInput.value
 }
 
 function renderBooks(bookList) {

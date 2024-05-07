@@ -6,7 +6,7 @@
     "start": "browser-sync start --config bs-config.json"
   },
   "keywords": [],
-  "author": "",
+  "author": "MesterOli",
   "license": "ISC",
   "dependencies": {
     "bootstrap": "^5.3.3"
